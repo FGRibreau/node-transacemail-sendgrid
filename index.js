@@ -75,7 +75,15 @@ MailProvider.prototype.send = function(mail, fn) {
   this.sendgrid.send(options, function(error, response) {
     //everything's good, lets see what sendgrid said
     //[ { email: 'plop@fgribreau.com', status: 'sent' } ]
-    fn(error ? JSON.stringify(error) : null, response);
+    if(error){
+      return fn(JSON.stringify(error));
+    }
+
+    if(!_.isPlainObject(response) || !response.message || response.message !== 'success'){
+      return fn(JSON.stringify({message: 'Could not send message', raw: response}));
+    }
+
+    return fn(null, [{email: options.to, status: 'sent'}]);
   });
 };
 

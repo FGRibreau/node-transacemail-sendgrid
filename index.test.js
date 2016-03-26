@@ -15,7 +15,7 @@ describe('sendgrid', function(){
       }
     }, function(err, result){
       t.strictEqual(err, null);
-      t.deepEqual(result, {"message":"success"});
+      t.deepEqual(result, [{email: 'transacemail-sendgrid@fgribreau.com', status: 'sent'}]);
       f();
     });
   });
