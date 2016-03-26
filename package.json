@@ -17,7 +17,7 @@
       "url": "https://github.com/FGRibreau/node-transacemail-sendgrid/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/index",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.6.0"
   },
