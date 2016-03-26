@@ -1,0 +1,43 @@
+{
+  "version": "0.1.4",
+  "name": "transacemail-sendgrid",
+  "description": "Transactional Email & Templated Email for NodeJS",
+  "homepage": "https://github.com/FGRibreau/node-transacemail-sendgrid",
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/node-transacemail-sendgrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FGRibreau/node-transacemail-sendgrid/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/FGRibreau/node-transacemail-sendgrid/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "lodash": "^4.6.1",
+    "sendgrid": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "keywords": [
+    "email",
+    "mail",
+    "transactional",
+    "sendgrid",
+    "transacemail"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
