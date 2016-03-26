@@ -5,7 +5,7 @@ describe('sendgrid', function(){
   it('should send an email', function(f){
     var SENDGRID_KEY = process.env.SENDGRID_KEY;
     assert(SENDGRID_KEY, 'SENDGRID_KEY environment variable is missing');
-    var provider = require('.')(SENDGRID_KEY);
+    var provider = require('./')(SENDGRID_KEY);
     provider.send({
       html: '<strong>hello :)</strong>',
       text: 'hello :)',
