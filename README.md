@@ -14,11 +14,11 @@ var mails = Mailing
               .setMailProvider(require('transacemail-sendgrid')('apikey'));
 
 // OR
-var Mandrill = require('transacemail-sendgrid');
+var Sendgrid = require('transacemail-sendgrid');
 
 var mails = Mailing
               .compile('/path/to/mails')
-              .setMailProvider(Mandrill('apikey', {
+              .setMailProvider(Sendgrid('apikey', {
                 subject: "node-transacemail-sendgrid",
                 from: "sendgrid@transacemail.com",
                 fromname: "Francois-Guillaume Ribreau"
