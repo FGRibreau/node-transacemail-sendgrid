@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "deep-extend": "^0.4.1",
-    "lodash": "^4.6.1",
+    "lodash": "^4.16.5",
     "sendgrid": "^2.0.0"
   },
   "scripts": {
