@@ -22,7 +22,7 @@
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "deep-extend": "^0.4.1",
+    "deep-extend": "^0.6.0",
     "lodash": "^4.6.1",
     "sendgrid": "^2.0.0"
   },
