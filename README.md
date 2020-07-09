@@ -1,7 +1,7 @@
 Sendgrid MailProvider for [node-transacemail](https://github.com/FGRibreau/node-transacemail)
 ===========================================
 
-[![Build Status](https://img.shields.io/circleci/project/FGRibreau/node-transacemail-sendgrid.svg)](https://circleci.com/gh/FGRibreau/node-transacemail-sendgrid/) [![Deps](	https://img.shields.io/david/FGRibreau/node-transacemail-sendgrid.svg)](https://david-dm.org/FGRibreau/node-transacemail-sendgrid) [![NPM version](https://img.shields.io/npm/v/transacemail-sendgrid.svg)](http://badge.fury.io/js/transacemail-sendgrid)  [![Downloads](http://img.shields.io/npm/dm/transacemail-sendgrid.svg)](https://www.npmjs.com/package/transacemail-sendgrid) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg)
+[![Build Status](https://img.shields.io/circleci/project/FGRibreau/node-transacemail-sendgrid.svg)](https://circleci.com/gh/FGRibreau/node-transacemail-sendgrid/) [![Deps](	https://img.shields.io/david/FGRibreau/node-transacemail-sendgrid.svg)](https://david-dm.org/FGRibreau/node-transacemail-sendgrid) [![NPM version](https://img.shields.io/npm/v/transacemail-sendgrid.svg)](http://badge.fury.io/js/transacemail-sendgrid)  [![Downloads](http://img.shields.io/npm/dm/transacemail-sendgrid.svg)](https://www.npmjs.com/package/transacemail-sendgrid) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg) [![Slack](https://img.shields.io/badge/Slack-Join%20our%20tech%20community-17202A?logo=slack)](https://join.slack.com/t/fgribreau/shared_invite/zt-edpjwt2t-Zh39mDUMNQ0QOr9qOj~jrg)
 
 Usage
 =====
